@@ -17,7 +17,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(185, 75%, 39%);
+    background: url("./images/bg-pattern-top.svg") right 50vw bottom 50vh no-repeat, 
+          url("./images/bg-pattern-top.svg") 60vw 60vh no-repeat hsl(185, 75%, 39%);  
 }
 .Card__Profile {
     background-color: white;
@@ -45,6 +46,7 @@ body{
     top: +50%;
     border-radius: 50%;
     border: 5px solid white;
+    background-color: white;
 }
 .Card__main {
     padding-top: 20px;
@@ -69,9 +71,9 @@ body{
     margin-top: 10px;
 }
 .Card__footer {
-  border-top: 1px solid hsl(227, 10%, 46%);
+  border-top: 0.5px solid hsl(227, 10%, 46%, 0.2);
   width: 100%;
-  padding:20px;
+  padding:30px;
 }
 .Card__footer-itm {
     display: flex;
